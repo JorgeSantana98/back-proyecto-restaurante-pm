@@ -3,6 +3,7 @@ import cors from 'cors';
 import routesProducto from '../routes/producto';
 import routesReservacion from '../routes/reservacionRoutes';
 import db from '../db/connection';
+import validateToken from '../routes/validate-token';
 
 class Server {
     private app: Application;
